@@ -45,3 +45,12 @@ class UserAdmin(BaseUserAdmin):
 
 
 admin.site.register(models.User, UserAdmin)
+admin.site.register(models.Branch)
+admin.site.register(models.Technician)
+admin.site.register(models.Service)
+admin.site.register(models.Skill)
+admin.site.register(models.Payment)
+admin.site.register(models.Discount)
+admin.site.register(models.Promo)
+admin.site.register(models.Client)
+admin.site.register(models.Appointment)
